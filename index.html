@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hoist the Black Flag!</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div class="title">
+    <img class="hoist" src="images/blackflag.png">
+  </div>
+  <div class="textholder">
+    <h2 class="turn-message">Swords up Lads!</h2>
+  </div>
+  <h2 class="scoreboard">
+    <div class="s_score">
+      <img class="score" src="images/swords.png">
+      <div class="swords score num">0</div>
+    </div>
+    <div class="o_score">
+      <img class="score" src="images/cannonballs.png">
+      <div class="cannon score num">0</div>
+    </div>
+  </h2>
+  <div class="textholder">
+    <h2 class="winner">...</h2>
+  </div>
+
+  <section class="wood">
+    <section class="board">
+      <img src="images/start_logo.png" class="start">
+      <section class="row">
+        <div class="box" id="0"></div>
+        <div class="box" id="1"></div>
+        <div class="box" id="2"></div>      
+      </section>
+      <section class="row">
+        <div class="box" id="3"></div>
+        <div class="box" id="4"></div>
+        <div class="box" id="5"></div>      
+      </section>
+      <section class="row">
+        <div class="box" id="6"></div>
+        <div class="box" id="7"></div>
+        <div class="box" id="8"></div>      
+      </section>
+    </section>
+  </section>
+  <h3>...</h3>
+  
+  <img class="reset" src="images/reset_boat.png">
+  <audio id="sword" src="sfx/sword.mp3"></audio>
+  <audio id="cannon" src="sfx/cannon.wav"></audio>
+  <audio id="intro" src="sfx/intro.wav"></audio>
+  <audio id="loop" src="sfx/loop.wav" loop="true"></audio>
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
